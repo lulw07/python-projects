@@ -28,7 +28,6 @@ ai = random.pc
 
 def test(player, ai):
     if player == ai:
-        print("same")
         same_label = tk.Label(root, text="You got the same!", font=('calibre', 10, 'bold'))
         same_label.grid(row=2, column=2)
         # Quit Button
