@@ -1,8 +1,8 @@
 import random
 
-object_list = ["rock", "paper", "scissor"]
+object_list = ["rock", "paper", "scissor", "Fountain"]
 ai = random.choice(object_list)
-print("You can select between rock, paper and scissor!")
+print("You can select between rock, paper, scissor and fountain!")
 user = str(input("Your choose: "))
 
 if user!= "rock" or user!= "paper" or user!= "scissor":
